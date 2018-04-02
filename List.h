@@ -10,9 +10,15 @@ struct ListNode{
     ListNode *m_pNext;
 };
 class List {
-    void AddToTail(ListNode **pHead, int value);
+public:
+    ListNode** get(){ return head; }
 
+    void AddToTail(ListNode **pHead, int value);
     void RemoveNode(ListNode **pHead, int value);
+
+
+private:
+    ListNode **head;
 
 };
 

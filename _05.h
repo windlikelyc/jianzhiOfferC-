@@ -7,11 +7,16 @@
 //从尾到头打印链表
 struct ListNode
 {
-    int m_nKey;
+    int m_nValue;
     ListNode *m_pNext;
 };
 
 class _05 {
+public:
+    void PrintListReversingly_Iteratively(ListNode *pHead);
+
+    void PrintListReversingly_Recursively(ListNode *pHead);
+
 
 };
 
