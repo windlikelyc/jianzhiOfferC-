@@ -5,11 +5,8 @@
 #ifndef JIANZHIOFFERC_05_H
 #define JIANZHIOFFERC_05_H
 //从尾到头打印链表
-struct ListNode
-{
-    int m_nValue;
-    ListNode *m_pNext;
-};
+
+#include "ListNode.h"
 
 class _05 {
 public:

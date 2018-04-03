@@ -5,10 +5,9 @@
 #ifndef JIANZHIOFFERC_05_H
 #define JIANZHIOFFERC_05_H
 
-struct ListNode{
-    int m_nValue;
-    ListNode *m_pNext;
-};
+
+#include "ListNode.h"
+
 class List {
 public:
     ListNode** get(){ return head; }
